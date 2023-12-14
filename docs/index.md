@@ -248,3 +248,124 @@ Veri güvenligi standartlari, bir organizasyonun verilerini korumak, gizliligini
     * Uygun durumda, belirli bir veri güvenligi standardina uygunlugu gösteren sertifikasyonlari hedefleyin.
 
 Bu adimlari takip ederek, organizasyonunuzun veri güvenligi standartlarini belirleyebilir, uygulayabilir ve sürekli olarak sürdürebilirsiniz. Veri güvenligi, organizasyonunuzun itibari, müsteri güveni ve operasyonel sürekliligi için kritik bir öneme sahiptir
+
+---
+
+# 3 Güvenlik Denetimleri ve Testleri
+----
+
+# 3.1 Ağ güvenliği denetimlerinin önemi ve nasıl gerçekleştirileceği
+
+Ağ güvenliği denetimleri, bir organizasyonun bilgi sistemlerini ve ağ altyapısını koruma, siber saldırılara karşı savunma ve uygun güvenlik politikalarını uygulama süreçlerinde önemli bir rol oynar. Bu denetimler, ağdaki zayıf noktaları tespit etmeye, güvenlik açıklarını gidermeye ve saldırılara karşı direnci artırmaya yardımcı olur. İşte ağ güvenliği denetimlerinin önemi ve gerçekleştirilmesi için kullanılabilecek yöntemlerin detaylı bir açıklaması:
+
+    1. Varlık Envanteri ve Sınıflandırma:
+    
+    * Önemi: Ağ güvenliği denetimlerine başlamadan önce, organizasyonun sahip olduğu tüm ağ varlıklarını belirlemek ve bunları kategorilere ayırmak önemlidir. Bu, organizasyonun hangi varlıklarının korunması gerektiğini ve hangi varlıkların kritik olduğunu anlamalarına yardımcı olur.
+    * Nasıl Gerçekleştirilir: Varlık envanteri, otomatik tarama araçları, manuel envanter yönetimi ve varlık sınıflandırma politikalarını içeren bir kombinasyonu içerebilir.
+    
+    2. Zayıf Nokta Taramaları:
+    
+    * Önemi: Ağ üzerindeki potansiyel güvenlik açıklarını belirlemek ve gidermek için düzenli olarak zayıf nokta taramaları yapılmalıdır.
+    * Nasıl Gerçekleştirilir: Zayıf nokta tarama araçları, sistem ve ağ zayıf noktalarını tespit etmek için kullanılabilir. Bu taramalar, yazılım güncellemeleri, konfigürasyon hataları ve bilinen güvenlik açıkları gibi konularda bilgi sağlar.
+    
+    3. Penetrasyon Testleri:
+    
+    * Önemi: Sistemlerin ve ağ altyapısının güvenilirliğini test etmek ve saldırılara karşı ne kadar dayanıklı olduğunu anlamak için penetrasyon testleri gerçekleştirilir.
+    * Nasıl Gerçekleştirilir: Bu testler, etik hacker'ların kontrolsüz bir saldırgan gibi davranarak güvenlik açıklarını tespit etmelerini içerir. Bu testler, saldırılara karşı gerçek dünya senaryolarını simüle etme amacını taşır.
+    
+    4. Güvenlik Politikaları ve Uyumluluk Denetimleri:
+    
+    * Önemi: Güvenlik politikalarının oluşturulması ve uygulanması, organizasyonun ağ güvenliği açısından kritiktir. Ayrıca, uyumluluk denetimleri, sektörel veya yasal gereksinimlere uygunluğu kontrol eder.
+    * Nasıl Gerçekleştirilir: Güvenlik politikaları, organizasyonun hedeflerine, endüstri standartlarına ve yasal düzenlemelere uygun olarak oluşturulmalı ve uygulanmalıdır. Uyumluluk denetimleri, organizasyonun belirlenen gereksinimlere uygun olup olmadığını değerlendirir.
+    
+    5. Olay İzleme ve Yanıt:
+    
+    * Önemi: Potansiyel güvenlik ihlallerini hızlı bir şekilde tespit etmek ve etkili bir şekilde yanıt vermek, ağ güvenliği için önemlidir.
+    * Nasıl Gerçekleştirilir: Olay izleme sistemleri, ağ üzerindeki olayları sürekli olarak izler ve anormallikleri tespit eder. Ayrıca, bir olay gerçekleştiğinde hızlı bir tepki verebilmek için acil durum yanıt planları oluşturulmalıdır.
+    
+    6. Eğitim ve Farkındalık:
+    
+    * Önemi: Kullanıcıların güvenlik bilincini artırmak, sosyal mühendislik saldırılarına karşı direnci artırmak için önemlidir.
+    * Nasıl Gerçekleştirilir: Kullanıcı eğitimleri ve farkındalık kampanyaları, çalışanların güvenlik konusunda eğitilmesini ve olası tehditlere karşı bilinçlenmelerini sağlar.
+    
+    7. Ağ Güvenlik Duvarları ve Güvenlik Cihazları Denetimi:
+    
+    * Önemi: Ağ güvenlik duvarları, güvenlik cihazları ve filtrelerin doğru bir şekilde yapılandırılmış ve güncel olduğundan emin olmak önemlidir.
+    * Nasıl Gerçekleştirilir: Bu denetim, ağ güvenlik duvarı kuralları, güvenlik cihazı konfigürasyonları ve trafiği izleme içerir. Ayrıca, güvenlik cihazlarının yazılım ve firmware güncellemeleri düzenli olarak kontrol edilmelidir.
+    
+    8. Günlük ve İnceleme Denetimleri:
+    
+    * Önemi: Günlük kayıtlarının düzenli olarak incelenmesi, potansiyel güvenlik olaylarını tespit etmek için önemlidir.
+    * Nasıl Gerçekleştirilir: Günlük denetimleri, ağ üzerindeki etkinlikleri izlemek ve değerlendirmek için kullanılır. Bu denetimler, kullanıcı girişleri, ağ trafiği, güvenlik olayları ve diğer önemli bilgileri içerir.
+    
+    9. Fiziksel Güvenlik Denetimleri:
+    
+    * Önemi: Ağ altyapısına fiziksel erişimi korumak, donanım ve ekipmanların güvenliğini sağlamak önemlidir.
+    * Nasıl Gerçekleştirilir: Fiziksel güvenlik denetimleri, erişim kontrol sistemleri, video gözetim, kapı güvenliği ve benzeri önlemleri içerir.
+
+Ağ güvenliği denetimleri, organizasyonların sürekli olarak güvenliklerini değerlendirmelerine ve geliştirmelerine yardımcı olur. Denetim süreçleri düzenli aralıklarla tekrarlanmalı ve ağ güvenliği politikaları, teknolojik gelişmeler ve tehdit manzarası gibi faktörlere uygun olarak güncellenmelidir.
+
+# 3.2 Ağ güvenliği testlerinin çeşitleri ve faydaları
+
+Ağ güvenliği testleri, bir organizasyonun bilgi sistemlerinin ve ağ altyapısının güvenlik durumunu değerlendirmek ve potansiyel güvenlik zayıf noktalarını tespit etmek amacıyla gerçekleştirilen çeşitli testlerden oluşur. Bu testler, saldırılara karşı direnci artırmak, güvenlik açıklarını belirlemek ve düzeltmek için önemlidir. İşte ağ güvenliği testlerinin çeşitleri ve faydalarına dair detaylı bir açıklama:
+    
+    1. Zayıf Nokta Taramaları:
+    
+    * Çeşitleri: Otomatik ve manuel zayıf nokta taramaları.
+    * Faydaları: Bilinen güvenlik açıklarını tespit eder, yazılım güncellemeleri ve konfigürasyon hatalarını belirler, saldırılara karşı zayıf noktaları ortaya koyar.
+    
+    2. Penetrasyon Testleri (Pen Test):
+    
+    * Çeşitleri: Ağ penetrasyon testi, uygulama penetrasyon testi, içeriden tehdit testi vb.
+    * Faydaları: Gerçek saldırı senaryolarını simüle eder, ağdaki savunmasız noktaları tespit eder, güvenlik önlemlerini değerlendirir.
+    
+    3. Sızma Testleri:
+    
+    * Çeşitleri: Fiziksel sızma testi, sosyal mühendislik testi, kablosuz ağ sızma testi.
+    * Faydaları: Fiziksel güvenlik açıklarını tespit eder, sosyal mühendislik saldırılarına karşı direnci test eder, kablosuz ağlardaki güvenlik durumunu değerlendirir.
+    
+    4. Güvenlik Mimarisinin İncelemesi:
+    
+    * Çeşitleri: Güvenlik mimaris değerlendirmesi, ağ tasarım incelemesi.
+    * Faydaları: Ağ mimarisindeki hataları ve eksiklikleri belirler, güvenlik politikalarının ve prosedürlerinin uygunluğunu kontrol eder.
+    
+    5. Günlük ve Olay İncelemeleri:
+    
+    * Çeşitleri: Günlük incelemesi, olay yönetimi, güvenlik bilgi ve olay yönetimi (SIEM) sistemlerinin değerlendirilmesi.
+    * Faydaları: Günlük kayıtlarını izleyerek potansiyel güvenlik olaylarını tespit eder, etkili bir olay yanıt stratejisi geliştirmeye yardımcı olur.
+    
+    6. Uygulama Güvenlik Testleri:
+    
+    * Çeşitleri: Statik kod analizi, dinamik uygulama güvenlik testi (DAST), açık kaynak güvenlik testi.
+    * Faydaları: Uygulama katmanındaki güvenlik açıklarını belirler, kod hatalarını tespit eder, saldırılara karşı uygulamaları sınar.
+    
+    7. Kablosuz Ağ Güvenliği Testleri:
+    
+    * Çeşitleri: Kablosuz ağ penetrasyon testi, spektrum analizi, güvenli ağ konfigürasyonu incelemesi.
+    * Faydaları: Kablosuz ağlardaki güvenlik açıklarını belirler, sızma testleri ile aynı amaçları taşır.
+    
+    8. Veri Güvenliği Testleri:
+    
+    * Çeşitleri: Veri şifreleme testleri, veri kaybı önleme testleri.
+    * Faydaları: Hassas verinin güvenliğini değerlendirir, veri sızıntısı risklerini belirler, şifreleme uygulamalarını kontrol eder.
+    
+    9. Fiziksel Güvenlik Testleri:
+    * Çeşitleri: Fiziksel erişim kontrol testleri, güvenlik kameraları incelemesi.
+    * Faydaları: Fiziksel güvenlik önlemlerini değerlendirir, yetkisiz erişimi tespit eder, güvenlik kameraları gibi fiziksel önlemlerin etkinliğini kontrol eder.
+    
+    10. Uygulama Güvenlik Kod İncelemeleri:
+    
+    * Çeşitleri: Manuel kod incelemeleri, otomatik kod analiz araçları.
+    * Faydaları: Uygulama kodundaki güvenlik açıklarını belirler, yazılım geliştirme süreçlerinde güvenlik en iyi uygulamalarını teşvik eder.
+
+Faydaları:
+
+* Güvenlik Zayıflıklarını Belirleme: Potansiyel güvenlik riskleri ve zayıflıklar tespit edilerek giderilebilir.
+* Saldırılara Karşı Direnç Artırma: Gerçek senaryolara dayalı testlerle ağın saldırılara karşı dayanıklılığı artırılır.
+* Güvenlik Bilinci Oluşturma: Test sonuçları, güvenlikle ilgili farkındalığı artırarak personelin eğitilmesine katkıda bulunur.
+* Uyumluluk Sağlama: İlgili sektörel veya yasal uyumluluk gereksinimlerini karşılamaya yardımcı olur.
+* Güvenlik Politikalarını Değerlendirme: Organizasyonun güvenlik politikalarının etkinliğini ve uygulanabilirliğini kontrol eder.
+* Etkin Olay Yanıtı: Potansiyel güvenlik olaylarını hızlı bir şekilde tespit ederek etkin olay yanıtı stratejileri geliştirme olanağı sağlar.
+
+Ağ güvenliği testleri, organizasyonların siber güvenliklerini sürekli olarak iyileştirmelerine yardımcı olarak güvenlik açıklarını minimize etmelerine ve siber tehditlere karşı daha dirençli hale gelmelerine olanak tanır
+
